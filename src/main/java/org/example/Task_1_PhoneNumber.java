@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task_1_PhoneNumber {
-    Path pathOfFile = Path.of("C:\\Users\\Vitaliy\\Module_10_HomeTask_IO\\file.txt");
+    Path pathOfFile = Path.of("C:\\Users\\Vitaliy\\Module_10_HomeTask_IO\\fileSourceOfPhoneNumbers.txt");
     List<String> listBegin;
     {
         try {
@@ -27,5 +27,4 @@ public class Task_1_PhoneNumber {
         }
     }
 
-    // [(]*[0-9]{3}[-]*[)]*[ ]*[0-9]{3}[-]{1}[0-9]{4}
 }
