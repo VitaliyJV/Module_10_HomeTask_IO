@@ -11,7 +11,9 @@ public class Main {
         file2.printListOfContent();
 
         Task_3_Words_Frequency words = new Task_3_Words_Frequency();
-        System.out.println("Frequency of words in file is: ");
+        System.out.println("Map of frequency(without required format) of words in file is: ");
         words.wordsFrequency();
+        System.out.println("Formatted output: ");
+        System.out.println(words.formatSomeMap());
     }
 }

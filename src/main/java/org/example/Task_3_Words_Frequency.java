@@ -22,12 +22,6 @@ public class Task_3_Words_Frequency {
 
     String[] arrSource = strSource1.split(" ");
 
-    @Override
-    public String toString() {
-        return "Task_3_Words_Frequency" +
-                "map " + map ;
-    }
-
     Map<String, Integer> map = new HashMap<>();
     public void wordsFrequency() {
         for (String s : arrSource) {
@@ -39,6 +33,19 @@ public class Task_3_Words_Frequency {
         }
         map.remove("");
         System.out.println(map);
+    }
+
+    public String formatSomeMap(){
+        StringBuilder out= new StringBuilder();
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            String key = entry.getKey();
+            Integer value = entry.getValue();
+            out.append(key);
+            out.append(" ");
+            out.append(value);
+            out.append("\n");
+        }
+        return out.toString();
     }
 
 }
