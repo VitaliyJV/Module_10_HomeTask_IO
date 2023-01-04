@@ -8,10 +8,22 @@
     <artifactId>Module_10_HomeTask_IO</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+
+
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.10</version>
+        </dependency>
+    </dependencies>
+
 </project>
+
