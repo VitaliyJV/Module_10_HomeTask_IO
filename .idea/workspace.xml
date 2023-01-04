@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="162ae0e5-173a-4163-82e5-5e719b6986a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task_2_CreateJson_2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task_1_PhoneNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task_2_CreateJson_2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task_2_CreateJson.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/Vitaliy/Module_9_HomeTask_Lists",
+    "last_opened_file_path": "C:/Users/Vitaliy/Module_10_HomeTask_IO",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -62,7 +60,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Module_10_HomeTask_IO" />
@@ -76,9 +74,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_2_CreateJson_2Test.createFileJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module_10_HomeTask_IO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task_2_CreateJson_2Test" />
+      <option name="METHOD_NAME" value="createFileJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_2_CreateJson_2Test.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module_10_HomeTask_IO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task_2_CreateJson_2Test" />
+      <option name="METHOD_NAME" value="readFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_3_Words_FrequencyTest.formatSomeMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module_10_HomeTask_IO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task_3_Words_FrequencyTest" />
+      <option name="METHOD_NAME" value="formatSomeMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_3_Words_FrequencyTest.wordsFrequency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Module_10_HomeTask_IO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task_3_Words_FrequencyTest" />
+      <option name="METHOD_NAME" value="wordsFrequency" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Task_3_Words_FrequencyTest.formatSomeMap" />
+        <item itemvalue="JUnit.Task_3_Words_FrequencyTest.wordsFrequency" />
+        <item itemvalue="JUnit.Task_2_CreateJson_2Test.createFileJson" />
+        <item itemvalue="JUnit.Task_2_CreateJson_2Test.readFile" />
       </list>
     </recent_temporary>
   </component>

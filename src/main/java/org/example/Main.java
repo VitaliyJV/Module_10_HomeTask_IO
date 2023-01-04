@@ -2,7 +2,12 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("This is my IO homework, please use my unit tests.");
+        System.out.println("This is my IO homework, please use my unit tests. Or you can push 'Run' in class Main.");
+        System.out.println();
+        System.out.println("Task 1");
+        Task_1_PhoneNumber ph1 = new Task_1_PhoneNumber();
+        System.out.println("This is valid phone numbers: ");
+        ph1.printValidPoneNumbers();
         System.out.println();
 
 
