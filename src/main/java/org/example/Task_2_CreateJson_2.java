@@ -52,17 +52,20 @@ public class Task_2_CreateJson_2 {
                 System.out.println("File already exists.");
             }
         } catch (IOException e) {
+            For_Stack_Trace.printStackTrace(Thread.currentThread().getStackTrace());
             throw new RuntimeException(e);
         }
         FileWriter writer = null;
         try {
             writer = new FileWriter(jsonFileFinish);
         } catch (IOException e) {
+            For_Stack_Trace.printStackTrace(Thread.currentThread().getStackTrace());
             throw new RuntimeException(e);
         }
         try {
             writer.write(json);
         } catch (IOException e) {
+            For_Stack_Trace.printStackTrace(Thread.currentThread().getStackTrace());
             throw new RuntimeException(e);
         }
         try {

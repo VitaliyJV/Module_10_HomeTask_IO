@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="162ae0e5-173a-4163-82e5-5e719b6986a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task_1_PhoneNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task_2_CreateJson_2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/For_Stack_Trace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task_1_PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task_1_PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task_2_CreateJson_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task_2_CreateJson_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task_3_Words_Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task_3_Words_Frequency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,6 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Solution" />
+      <module name="Module_10_HomeTask_IO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task_2_CreateJson_2Test.createFileJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Module_10_HomeTask_IO" />
       <extension name="coverage">
@@ -85,22 +99,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.Task_2_CreateJson_2Test" />
       <option name="METHOD_NAME" value="createFileJson" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_2_CreateJson_2Test.readFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module_10_HomeTask_IO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Task_2_CreateJson_2Test" />
-      <option name="METHOD_NAME" value="readFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,10 +139,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.Task_3_Words_FrequencyTest.formatSomeMap" />
         <item itemvalue="JUnit.Task_3_Words_FrequencyTest.wordsFrequency" />
         <item itemvalue="JUnit.Task_2_CreateJson_2Test.createFileJson" />
-        <item itemvalue="JUnit.Task_2_CreateJson_2Test.readFile" />
       </list>
     </recent_temporary>
   </component>

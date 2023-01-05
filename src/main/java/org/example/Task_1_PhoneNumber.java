@@ -13,6 +13,7 @@ public class Task_1_PhoneNumber {
         try {
             listBegin = Files.readAllLines(pathOfFile);
         } catch (IOException e) {
+            For_Stack_Trace.printStackTrace(Thread.currentThread().getStackTrace());
             throw new RuntimeException(e);
         }
     }

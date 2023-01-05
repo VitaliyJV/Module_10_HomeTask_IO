@@ -15,6 +15,7 @@ public class Task_3_Words_Frequency {
         try {
             strSource = Files.readString(pathOfFile3);
         } catch (IOException e) {
+            For_Stack_Trace.printStackTrace(Thread.currentThread().getStackTrace());
             throw new RuntimeException(e);
         }
     }
