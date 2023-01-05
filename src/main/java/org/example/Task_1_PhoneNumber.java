@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Task_1_PhoneNumber {
-    Path pathOfFile = Path.of("C:\\Users\\Vitaliy\\Module_10_HomeTask_IO\\fileSourceOfPhoneNumbers.txt");
+    Path pathOfFile = Path.of("C:\\Users\\Vitaliy\\module_10_HomeTask_IO\\fileSourceOfPhoneNumbers.txt");
     List<String> listBegin;
     {
         try {

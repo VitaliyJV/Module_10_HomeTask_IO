@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("Task 2");
         Task_2_CreateJson_2 f2 = new Task_2_CreateJson_2();
-        f2.createFileJson(f2.readFile("C:\\\\Users\\\\Vitaliy\\\\Module_10_HomeTask_IO\\\\fileSourceForJson.txt"));
+        f2.createFileJson(f2.readFile("C:\\\\Users\\\\Vitaliy\\\\module_10_HomeTask_IO\\\\fileSourceForJson.txt"));
         System.out.println();
 
         System.out.println("Task 3");

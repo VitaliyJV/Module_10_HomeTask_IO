@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class Task_3_Words_Frequency {
 
-    Path pathOfFile3 = Path.of("C:\\Users\\Vitaliy\\Module_10_HomeTask_IO\\words.txt");
+    Path pathOfFile3 = Path.of("C:\\Users\\Vitaliy\\module_10_HomeTask_IO\\words.txt");
     String strSource;
 
     {

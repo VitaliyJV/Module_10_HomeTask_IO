@@ -8,7 +8,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class Task_2_CreateJson_2 {
-    String sourcePath = "C:\\Users\\Vitaliy\\Module_10_HomeTask_IO\\fileSourceForJson.txt";
+    String sourcePath = "C:\\Users\\Vitaliy\\module_10_HomeTask_IO\\fileSourceForJson.txt";
 
     public List<User> readFile(String sourcePath) {
         List<User> users = new ArrayList<>();
@@ -43,7 +43,7 @@ public class Task_2_CreateJson_2 {
         System.out.println("This is our Json format: ");
         System.out.println(json);
         System.out.println("Let us create file now");
-        File jsonFileFinish = new File("C:\\Users\\Vitaliy\\Module_10_HomeTask_IO\\jsonFileFinish.txt");
+        File jsonFileFinish = new File("C:\\Users\\Vitaliy\\module_10_HomeTask_IO\\jsonFileFinish.txt");
         try {
             if (jsonFileFinish.createNewFile()){
                 System.out.println("File jsonFileFinish is created!");
