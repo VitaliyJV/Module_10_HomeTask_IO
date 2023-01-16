@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="162ae0e5-173a-4163-82e5-5e719b6986a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/module_10_HomeTask_IO_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task_2_byJackson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Task_4_Deserialization_From_Json.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Task_4_Deserialization_From_JsonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsonFileFinish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jsonFileFinish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/module_10_HomeTask_IO_jar/module_10_HomeTask_IO.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/module_10_HomeTask_IO_jar/module_10_HomeTask_IO.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task_2_CreateJson_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task_2_CreateJsonByGson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/Task_2_CreateJson_2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Task_2_CreateJson_2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,7 +54,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,10 +68,10 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task_2_CreateJson_2Test.readFile">
+  <component name="RunManager" selected="JUnit.Task_4_Deserialization_From_JsonTest.deserJsonFile">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="Module_10_HomeTask_IO" />
+      <module name="module_10_HomeTask_IO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -119,8 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_3_Words_FrequencyTest.wordsFrequency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module_10_HomeTask_IO" />
+    <configuration name="Task_4_Deserialization_From_JsonTest.deserJsonFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module_10_HomeTask_IO" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -128,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Task_3_Words_FrequencyTest" />
-      <option name="METHOD_NAME" value="wordsFrequency" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Task_4_Deserialization_From_JsonTest" />
+      <option name="METHOD_NAME" value="deserJsonFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task_2_CreateJson_2Test.readFile" />
+        <item itemvalue="JUnit.Task_4_Deserialization_From_JsonTest.deserJsonFile" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Task_2_CreateJson_2Test.readFile" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.Task_3_Words_FrequencyTest.formatSomeMap" />
-        <item itemvalue="JUnit.Task_3_Words_FrequencyTest.wordsFrequency" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +174,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Task_4_Deserialization_From_Json.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
