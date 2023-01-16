@@ -27,10 +27,5 @@ public class Main {
 //        System.out.println("Formatted output: ");
 //        System.out.println(words.formatSomeMap());
 
-//        Task_4_Deserialization_From_Json t4 = new Task_4_Deserialization_From_Json();
-//        System.out.println("Task 4");
-//        System.out.println("Source json to string: " + t4.jSonAsString);
-//        t4.deserJsonFile(t4.jSonAsString);
-
     }
 }
